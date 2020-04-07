@@ -3,12 +3,12 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Test Your Knowledge: Saturn</title>
+		<title>COVID-19 Self Test</title>
 		<link rel="stylesheet" type="text/css" href="css/quiz.css">
 	</head>
 	<body>
 		<div id="myQuiz" ng-controller="QuizController">
-			<h1>Test Your Knowledge:<span>Saturn</span></h1>
+			<h1>Take your<span>Self test</span></h1>
 			<div class="progress">
 				<div class="
 							{{ ($index === activeQuestion) ? 'on' : 'off' }}
@@ -18,7 +18,7 @@
 			</div>
 			<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active' }}">
 				<h2>Welcome</h2>
-				<p>Click begin to test your knowledge of Saturn.</p>
+				<p>Click to begin your self test</p>
 				<p class="btn" ng-click="activeQuestion = 0">Begin</p>
 			</div>
 			<div class="question
